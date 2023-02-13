@@ -242,7 +242,8 @@ legend {
 
 .header-top {
 /*   background-color: #004da8;*/
-   background: #f4f4f4;
+/*   background: #f4f4f4;*/
+   background: #eaeaea;
 /*   background: #43709e;*/
    color: white;
    color: #777;
@@ -310,7 +311,7 @@ legend {
 .contacts__link span {
    padding: 0px 5px 0px;
 /*   color: #ffb100;*/
-   color: #d4d4d4;
+   color: #bcbcbc;
    font-weight: 600;
 /*   font-style: italic;*/
    letter-spacing: 0.5px;
@@ -623,6 +624,9 @@ legend {
 }
 
 @media (max-width:920px) {
+   .main_banners {
+      height: 230px;
+   }
    .header__navigation-link {
        font-size: 14px;
    }
@@ -1158,13 +1162,13 @@ input[type="number"]:focus {
    padding: 0px 0px 5px 0px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 920px){
    .filtr-inner {
       flex-wrap: wrap;
    }
    
    .filtr__section {
-      margin: 217px auto 30px;
+      margin: 183px auto 30px;
       max-width: 700px;
       padding: 5px 0px;
    }
@@ -1189,7 +1193,7 @@ input[type="number"]:focus {
 
 @media (max-width: 620px) {
    .filtr__section {
-      margin: 217px auto 30px;
+      margin: 183px auto 30px;
       max-width: 600px;
    }
    
