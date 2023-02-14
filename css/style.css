@@ -1505,16 +1505,50 @@ f
    align-items: center;
 }
 .section_header__more {
-   color: #004da8;
+   color: #0064db;
    font-size: 16px;
    font-weight: 500;
    display: flex;
    align-items: center;
+   transition: all 0.3s ease 0s;
+}
+
+.icon-arrow-right11 {
+   width: 15px;
+   height: 15px;
+   margin-right: 3px;
+   margin-bottom: 1px;
+   fill: orangered;
+   transition: all 0.3s ease 0s;
+}
+
+.section_header__more:hover {
+   color: #004da8;
+}
+
+.section_header__more:hover .icon-arrow-right11 {
+   margin-right: 0px;
 }
 
 .icon-vip_title {
 /*   fill: #ff5800;*/
    fill: #ef0000;
+   width: 20px;
+   height: 20px;
+   margin: 0px 5px;
+   margin-bottom: -2px;
+}
+
+.icon_new_clock {
+   fill: #339300;
+   width: 20px;
+   height: 20px;
+   margin: 0px 5px;
+   margin-bottom: -2px;
+}
+
+.icon_salon {
+   fill: #edc800;
    width: 20px;
    height: 20px;
    margin: 0px 5px;
@@ -1550,13 +1584,7 @@ f
    fill: #ff8900;
 }
 
-.icon-arrow-right11 {
-   width: 15px;
-   height: 15px;
-   margin-right: 2px;
-   margin-bottom: 0px;
-   fill: orangered;
-}
+
 
 @media (max-width: 530px) {
    .section_header__title {
@@ -1919,5 +1947,138 @@ margin-left: 2px;
    .heart__icon_content1 {
       left: 5px;
     top: 7px;
+   }
+}
+
+/* Agencies Styles  */
+.agencies {
+}
+.agencies_container {
+}
+
+.agencies__inner {
+   display: flex;
+   margin-bottom: 15px;
+   flex-wrap: wrap;
+}
+.agency__item {
+   flex: 0 0 50%;
+   overflow: hidden;
+}
+.agency__body {
+   display: flex;
+   margin: 10px;
+   border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 2px rgba(201,199,199,0.66);
+   overflow: hidden;
+   transition: all 0.3s ease 0s;
+}
+
+.agency__body:hover {
+   box-shadow: 0 0 3px 2px rgba(0, 9, 234, 0.66);
+}
+
+.agency__left {
+   flex: 0 0 25%;
+   min-width: 120px;
+   position: relative;
+   border-right: 1px solid #d8d8d8;
+}
+.agency__logo {
+   width: 100%;
+   height: 100%;
+}
+
+.agency__logo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.agency__elan_say {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background-color: #ffdc22;
+/*   color: white;*/
+   color: #004da8;
+   padding: 2px 5px;
+   font-weight: 600;
+}
+
+.agency__elan_say span {
+   padding: 0px 2px;
+}
+.agency__right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   overflow: hidden;
+/*   width: 100%;*/
+}
+.agency__about {
+   padding: 5px 10px;
+   text-decoration: none;
+}
+.agency__name {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 5px;
+  color: black;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+   padding-right: 10px;
+   min-width: 0px;
+}
+.agency__text {
+   color: #414141;
+   overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.agency__stats {
+   display: flex;
+   justify-content: flex-end;
+/*   background-color: #9aba95;*/
+   padding: 4px 15px;
+   color: white;
+   font-weight: 500;
+   align-items: center;
+    background-color: #005bc7;
+}
+
+
+
+.stat__item {
+   display: flex;
+   align-items: center;
+   margin: 0px 4px;
+}
+.icon_stat {
+   fill: currentcolor;
+   width: 12px;
+   height: 12px;
+   margin: 0px 1px;
+/*   margin-bottom: -2px;*/
+}
+.icon-vip_title {
+}
+.stat__number {
+}
+
+@media (max-width: 700px) {
+   .agencies__inner {
+   flex-wrap: wrap;
+}
+.agency__item {
+   flex: 0 0 100%;
+}
+}
+
+@media (max-width: 500px) {
+   .agency__body {
+      margin: 10px 5px;
    }
 }
