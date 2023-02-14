@@ -1715,7 +1715,7 @@ f
 .content_type__icons {
    display: flex;
    position: absolute;
-   right: 3px;
+   right: 0px;
    bottom: 3px;
 }
 
@@ -1745,15 +1745,15 @@ margin-left: 2px;
 .home_extra__icons {
    display: flex;
    position: absolute;
-   right: 3px;
+   right: 0px;
    top: 21px;
 }
 
 .document__icon_content {
     display: block;
     fill: white;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     padding: 3px 3px;
     background-color: #9aba95;
    margin-left: 2px;
@@ -1765,8 +1765,8 @@ margin-left: 2px;
 .percent__icon_content {
     display: block;
     fill: white;
-    width: 18px;
-    height: 18px;  
+    width: 16px;
+    height: 16px;  
     padding: 3px 3px;
     background-color: #F7941E;
    margin-left: 2px;
@@ -1791,8 +1791,8 @@ margin-left: 2px;
     position: absolute;
     width: 30px;
     height: 28px;
-    left: 14px;
-    top: 12px;
+    left: 12px;
+    top: 10px;
     padding: 5px 3px;
     background-color: rgba(33, 33, 33, 0.37);
    border-radius: 5px;
