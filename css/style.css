@@ -1672,11 +1672,11 @@ f
     position: absolute;
     right: 0px;
     top: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+/*    font-family: 'Roboto', sans-serif;*/
+    font-size: 14px;
     color: #ffffff;
-    font-weight: 500;
-    padding: 3px 7px;
+    font-weight: 600;
+    padding: 1px 5px;
     background-color: rgba(255, 54, 0, 0.82);
 /*   background-color: red;*/
    border-radius: 5px 0px 0px 5px;
@@ -1701,7 +1701,7 @@ f
 .home_photo_text_agent {
    position: absolute;
     left: 0px;
-    bottom: 25px;
+    bottom: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #ffffff;
@@ -1746,15 +1746,15 @@ margin-left: 2px;
    display: flex;
    position: absolute;
    right: 0px;
-   top: 33px;
+   top: 26px;
 }
 
 .document__icon_content {
     display: block;
     fill: white;
-    width: 22px;
-    height: 22px;
-    padding: 4px 4px;
+    width: 18px;
+    height: 18px;
+    padding: 3px 3px;
     background-color: #9aba95;
    margin-left: 2px;
    border-radius: 5px;
@@ -1765,9 +1765,9 @@ margin-left: 2px;
 .percent__icon_content {
     display: block;
     fill: white;
-    width: 22px;
-    height: 22px;  
-    padding: 4px 4px;
+    width: 18px;
+    height: 18px;  
+    padding: 3px 3px;
     background-color: #F7941E;
    margin-left: 2px;
    border-radius: 5px;
