@@ -674,7 +674,7 @@ legend {
 }
 
 
-@media (ma-width: 800px) {
+@media (max-width: 800px) {
 .header__navigation-link {
       padding: 0px 0px;
    }
