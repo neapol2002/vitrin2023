@@ -97,7 +97,17 @@
                <div class="main-header__right">
                <nav class="main-header__navigation">
                    <ul data-da=".nav, 800, 0" class="header__navigation-list">
-                       <li><a href="" class="header__navigation-link _active ">Satış</a></li>
+                       
+                       <li class="dropli_link"><div class="header__navigation-link navigation-link__dropli _active">Satış<svg class="icon icon_arrow_next"><use xlink:href="symbol-defs.svg#icon-arrow_down"></use></svg></div>
+                       
+                       <ul class="sub__navigation-list">
+                         <li><div class="sub__navigation-link navigation-link__back"><span class="menu__arrow_back"><svg class="icon icon_arrow_back"><use xlink:href="symbol-defs.svg#icon-arrow_right13"></use></svg></span><span>Satış</span></div></li>
+                          <li><a href="" class="sub__navigation-link sub_link">Minik maşınları</a></li>
+                          <li><a href="" class="sub__navigation-link sub_link">Ticari Avtomobillər</a></li>
+                          <li><a href="" class="sub__navigation-link sub_link">Motosikletlər</a></li>
+                       </ul>
+                       </li>
+                       
                        <li><a href="" class="header__navigation-link">İcarə</a></li>
                        <li><a href="" class="header__navigation-link">Avtosalonlar</a></li>
                        <li><a href="" class="header__navigation-link">Şirkətlər</a></li>
@@ -965,6 +975,7 @@
     </div>
     <script src="js/dynamicAdapt.js"></script>
     <script src="js/bs.js"></script>
+    <script src="js/fb.js"></script>
    <script src="js/hystmodal.min.js"></script>
    <script src="js/imask.js"></script>
     <script src="js/script.js"></script>
