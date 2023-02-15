@@ -1002,7 +1002,7 @@ legend {
 }
 
 .filtr__btn:hover {
-   background-color: #ef4000;
+   background-color: #004da8;
 }
 
 .filtr__btn1 {
@@ -1047,13 +1047,14 @@ legend {
    }
    
    .filtr__btn {
-      height: 45px;
+      height: 40px;
       margin: 5px 5px 5px;
    }
    
    .filtr__btn1 {
-      height: 45px;
-    background-color: #669300;
+      height: 40px;
+/*    background-color: #669300;*/
+    background-color: #6d9d00;
       margin: 5px 5px 5px;
       font-weight: 500;
    font-size: 16px;
