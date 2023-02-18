@@ -2610,6 +2610,43 @@ margin-left: 2px;
    color: white;
 }
 
+.checkbox_pay_modal {
+   margin: 0px 3px 0px 0px;
+}
+
+.checkbox_search_in_modal {
+   display: flex;
+/*   justify-content: space-between;*/
+   align-items: center;
+   padding: 0px 0px 5px 0px;
+}
+
+@media (max-width: 920px) {
+   .checkbox_search-modal {
+      flex: 1 0 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7px;
+   }
+   
+   .checkbox_search_in_modal {
+      padding: 0px 10px 0px 10px;
+   }
+}
+
+@media (max-width: 420px) {
+   .checkbox_search-modal {
+   padding: 0px 10px;
+}
+
+
+
+.checkbox_pay_modal {
+   margin: 0px 3px 0px 0px;
+}
+}
+
 
 @media (max-width: 900px) {
    
@@ -2629,6 +2666,54 @@ margin-left: 2px;
    }
    
 }
+
+
+
+.car_extras_modal {
+   width: 100%;
+   color: white;
+   margin: 10px 0px 20px;
+   padding: 0px 20px;
+/*   border-top: 1px dashed rgba(0, 173, 249, 0.71);*/
+}
+.car_extras_modal-body {
+}
+.car_extras_modal-title {
+   font-size: 18px;
+   font-weight: 700;
+   margin: 10px 0px;
+}
+.car_extras_modal-main {
+   display: flex;
+   flex-wrap: wrap;
+}
+.car_extras_modal-label {
+   flex: 0 1 25%;
+   display: flex;
+   align-items: center;
+   padding: 5px 5px;
+}
+
+.car_extras_modal-input {
+   
+   margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+   .car_extras_modal-label {
+   flex: 0 1 33%;
+   }
+}
+
+@media (max-width: 550px) {
+   .car_extras_modal {
+      padding: 0px 10px;
+   }
+   .car_extras_modal-label {
+   flex: 0 1 50%;
+   }
+}
+
 
 /*  Footer Styles */
 
