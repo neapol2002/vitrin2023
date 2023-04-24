@@ -2329,6 +2329,14 @@ margin-left: 2px;
     margin-bottom: 15px;
 }
 
+.avtovitrin_h1_title {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
 .avtovitrin_elan_ver_item_text {
     margin: 0 auto 5px;
     text-align: center;
@@ -2597,7 +2605,7 @@ margin-left: 2px;
 }
 
 .modal_filtr__btn-red:hover {
-   background-color: #ef4000;
+   background-color: #0081ba;
 }
 
 .modal_filtr__btn-green:hover {
