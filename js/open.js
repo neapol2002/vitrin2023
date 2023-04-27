@@ -7,8 +7,8 @@ let report_items = document.querySelector('.ads_report_items');
 let delate_items = document.querySelector('.ads_delate_items');
 let edit_items = document.querySelector('.ads_edit_items');
 let estate__share = document.querySelector('.estate__share');
-let psw__edit = document.querySelector('.user_psw_change');
-let psw__window = document.querySelector('.user_password_change');
+// let psw__edit = document.querySelector('.user_psw_change');
+// let psw__window = document.querySelector('.user_password_change');
 
 
 
@@ -30,6 +30,6 @@ column__share.onclick = function(){
     estate__share.classList.toggle('open');
 }
 
-psw__edit.onclick = function(){
-    psw__window.classList.toggle('open');
-}
+// psw__edit.onclick = function(){
+//     psw__window.classList.toggle('open');
+// }
