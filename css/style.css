@@ -3159,8 +3159,8 @@ margin-left: 2px;
 }
 
 .rowone {
-   background-color: #68b7c6;
-/*   background-color: #ffd102;*/
+/*   background-color: #68b7c6;*/
+   background-color: #1067bf;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 5px;
@@ -3172,6 +3172,8 @@ margin-left: 2px;
 
 .rowone_name {
    background-color: #9aba95;
+   background-color: #1067bf;
+    background-color: #68b7c6;
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -3192,10 +3194,11 @@ margin-left: 2px;
 }
 
 .rowtwo {
-    background-color: #f0016f;
+/*    background-color: #f0016f;*/
     background-color: #ff3600;
-    background-color: #ffd102;
-    border: 1px solid #677842;
+/*    background-color: #ffd102;*/
+/*    border: 1px solid #677842;*/
+    border: 1px solid #ff3600;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 5px;
@@ -3209,6 +3212,7 @@ margin-left: 2px;
 
 .row_phone_icon {
     background-color: rgb(255, 167, 0);
+    background-color: rgb(255, 167, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 5px;
@@ -3221,6 +3225,15 @@ margin-left: 2px;
    justify-content: center;
 /*   height: 40px;*/
 /*   margin-bottom: -1px;*/
+}
+
+.car_about_user_phone {
+   width: 22px;
+   height: 22px;
+   fill: white;
+/*   fill: #777;*/
+/*   fill: #004da8;*/
+   transition: all 0.3s ease 0s;
 }
 
 .row_make_first {
@@ -3581,7 +3594,8 @@ margin-left: 2px;
 }
 
 .icon-infr5 {
-   fill: #6bb0ff;
+/*   fill: #6bb0ff;*/
+   fill: #1067bf;
 }
 
 @media (max-width: 450px) {
