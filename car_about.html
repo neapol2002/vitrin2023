@@ -431,35 +431,35 @@
 <div class="estate__config">
    <div class="estate__config_row">
      
-      <div class="estate__config_column">
+      <div class="estate__config_column column__like">
        <div class="estate__config_body">
-        <svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-like3"></use></svg>
-         Seçilmiş et
+        <svg class="icon icon-vip_title icon-infr5 icon-liked"><use xlink:href="symbol-defs.svg#icon-like3"></use></svg>
+         <p class="share_on">Seçilmiş et</p>
          </div>
       </div>
       
-      <div class="estate__config_column column__report">
+      <div class="estate__config_column column__report" data-tab="tab-1">
        <div class="estate__config_body">
         <svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-flag1"></use></svg>
          Şikayət et
          </div>
       </div>
       
-      <div class="estate__config_column column__edit">
+      <div class="estate__config_column column__edit" data-tab="tab-2">
        <div class="estate__config_body">
         <svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-pencil"></use></svg>
          Düzəliş et
          </div>
       </div>
       
-      <div class="estate__config_column column__delate">
+      <div class="estate__config_column column__delate" data-tab="tab-3">
        <div class="estate__config_body">
         <svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-delete9"></use></svg>
          Elanı sil
          </div>
       </div>
       
-      <div class="estate__config_column column__share">
+      <div class="estate__config_column column__share" data-tab="tab-4">
        <div class="estate__config_body">
         <svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-share-1"></use></svg>
           Paylaş
@@ -477,7 +477,8 @@
 </div>
 
 <!-- Report section start -->
-<div class="ads_report_items">
+<div class="ads_report_items" data-tab-content id="tab-1">
+             <div class="ads_report_items-body">
               <div class="ads_report_item">
                <input type="radio" name="ads_report" id="wrong_number">
                <label for="wrong_number">Telefon səhvdir</label>
@@ -502,9 +503,11 @@
                <input type="radio" name="ads_report" id="wrong_repeat">
                <label for="wrong_repeat">Təkrar elan</label>
                </div>
+               </div>
+                <button type="submit" class="ads_report_btn">Göndər</button>
            </div>
 
-           <div class="ads_delate_items">
+           <div class="ads_delate_items" data-tab-content id="tab-3">
                <div class="ads_delate_title">Elanı silmək</div>
                <div class="ads_delate_text">Zəhmət olmasa, elanın silinməsini təsdiqləmək üçün Şifrəni daxil edin. Şifrəni, elanınız saytda dərc olunan zaman avtovitrin.com-dan Sizə göndərilən məktubda tapa bilərsiniz.</div>
                <div class="ads_delate_input_part">
@@ -516,7 +519,7 @@
                </div>
            </div>
 
-           <div class="ads_edit_items">
+           <div class="ads_edit_items" data-tab-content id="tab-2">
                <div class="ads_delate_title">Elana Düzəliş etmək</div>
                <div class="ads_delate_text">Zəhmət olmasa, elanınıza düzəliş etmək üçün Şifrəni daxil edin. Şifrəni, elanınız saytda dərc olunan zaman avtovitrin.com-dan Sizə göndərilən məktubda tapa bilərsiniz.</div>
                <div class="ads_delate_input_part">
@@ -530,7 +533,7 @@
 <!-- Report section end -->
 
 <!-- Estae share section start -->
-<div class="estate__share">
+<div class="estate__share" data-tab-content id="tab-4">
    <div class="estate__share_row">
       <div class="estate__share_item">
          <a class="car_about_share_link" href="" target="_blank">
