@@ -3619,12 +3619,14 @@ margin-left: 2px;
 /*  Ads Report Styles */
 
 .ads_report_items {
+/*
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+*/
     border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
-    margin: 0px 0px;
+    margin: 0px 0px ;
     padding: 0px 0px 0px;
     font-size: 16px;
    height: 0;
@@ -3635,11 +3637,18 @@ margin-left: 2px;
 
 }
 
+.ads_report_items-body {
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+/*   margin-bottom: 30px;*/
+}
+
 .ads_report_items.open {
    opacity: 1;
-   height: 90px;
-   margin: 20px 10px;
-   padding: 20px 0 5px;
+   height: 140px;
+   margin: 20px 10px 0px;
+   padding: 20px 0 20px;
 }
 
 .ads_report_item {
@@ -3650,6 +3659,20 @@ margin-left: 2px;
 
 .ads_report_item label {
    cursor: pointer;
+}
+
+.ads_report_btn {
+   display: block;
+   padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #6d8b2d;
+/*    border: 1px solid #6d8b2d;*/
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    align-items: baseline;
+   transition: all 0.2s ease 0s;
+   margin-left: 35%;
 }
 
 @media (max-width: 520px) {
