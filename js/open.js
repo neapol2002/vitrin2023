@@ -44,7 +44,7 @@ column__like.onclick = function() {
     if (column__like_p.classList.contains('liked')) {
     column__like_p.innerHTML = 'Seçilmişdir'
     column__like_p.style.color = 'red'
-    column__like_p.style.fontWeight = '700'
+    column__like_p.style.fontWeight = '500'
     column__like_icon.style.fill = 'red'
 }
 else {
