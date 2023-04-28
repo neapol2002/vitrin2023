@@ -2792,6 +2792,16 @@ margin-left: 2px;
 }
 }
 
+@media (max-width:600px) {
+   .about_page-banners {
+      height: 150px;
+   }
+
+      .about_page-header {
+      height: 150px;
+}
+}
+
 
 /* Estate about page */
 
@@ -3171,14 +3181,15 @@ margin-left: 2px;
 }
 
 .rowone_name {
-   background-color: #9aba95;
-   background-color: #1067bf;
+/*   background-color: #9aba95;*/
+/*   background-color: #1067bf;*/
     background-color: #68b7c6;
+    background-color: #007EB4;
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 5px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     color: #ffffff;
 }
@@ -3211,8 +3222,8 @@ margin-left: 2px;
 
 
 .row_phone_icon {
-    background-color: rgb(255, 167, 0);
-    background-color: rgb(255, 167, 0);
+/*    background-color: rgb(255, 167, 0);*/
+    background-color: rgb(248, 163, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 5px;
@@ -3310,7 +3321,8 @@ margin-left: 2px;
 }
 
 .row_phone_number {
-    background-color: rgb(255, 185, 51);
+/*    background-color: rgb(255, 185, 51);*/
+    background-color: rgb(253, 176, 28);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 5px 3px;
