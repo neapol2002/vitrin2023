@@ -3629,12 +3629,6 @@ margin-left: 2px;
 /*  Ads Report Styles */
 
 .ads_report_items {
-/*
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-*/
-    border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
     margin: 0px 0px ;
     padding: 0px 0px 0px;
@@ -3652,12 +3646,13 @@ margin-left: 2px;
     justify-content: space-between;
     flex-wrap: wrap;
 /*   margin-bottom: 30px;*/
+   padding: 20px 0px 10px;
 }
 
 .ads_report_items.open {
    opacity: 1;
-   height: 140px;
-   margin: 20px 10px 0px;
+   height: 210px;
+   margin: 0px 10px 0px;
    padding: 20px 0 20px;
 }
 
@@ -3682,7 +3677,7 @@ margin-left: 2px;
     color: white;
     align-items: baseline;
    transition: all 0.2s ease 0s;
-   margin-left: 35%;
+   margin-left: 45%;
 }
 
 @media (max-width: 520px) {
@@ -3691,7 +3686,7 @@ margin-left: 2px;
    }
    
    .ads_report_items.open {
-      height: 170px;
+      height: 250px;
    }
 }
 
@@ -3733,7 +3728,32 @@ margin-left: 2px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
+   position: relative;
 }
+
+.ads_title_close {
+   position: absolute;
+   transform: rotate(45deg);
+   top: -3px;
+   right: 7px;
+   font-size: 36px;
+   font-weight: 300;
+   z-index: 15;
+   cursor: pointer;
+}
+
+.ads_delate_title::before {
+   content: "";
+   border: 1px solid white;
+   min-width: 26px;
+   min-height:  25px;
+   position: absolute;
+   top: 5px;
+   right: 4px;
+   border-radius: 5px;
+   z-index: 14;
+}
+
 
 .ads_delate_text {
     padding: 15px 15px 5px;
@@ -3858,15 +3878,17 @@ margin-left: 2px;
     overflow: hidden;
     will-change: max-height;
     transition: all 0.4s ease-out;
+   border-bottom: 1px solid #d1d1d1;
 }
 
 .estate__share.open {
    margin: 20px 0px 10px;
-   height: 30px;
+   height: 100px;
     opacity: 1;
 }
 
 .estate__share_row {
+   margin: 20px 0px 20px;
    display: flex;
    justify-content: center;
 }
