@@ -3178,6 +3178,11 @@ margin-left: 2px;
     font-weight: 700;
 }
 
+.row2_link_a {
+   color: #0073a7;
+    font-weight: 700;
+}
+
 .rowone {
 /*   background-color: #68b7c6;*/
    background-color: #1067bf;
@@ -3202,6 +3207,10 @@ margin-left: 2px;
     font-size: 24px;
     font-weight: 600;
     color: #ffffff;
+}
+
+.table_hidden {
+display: none;
 }
 
 .rowones {
@@ -3369,6 +3378,147 @@ margin-left: 2px;
 
 }
 
+.car_dealer_table {
+   border: 1px dotted grey;
+   border-radius: 5px;
+   margin: 20px 0px;
+}
+.dealer_table-body {
+   padding: 10px;
+}
+.dealer_table-logo_name {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   border-bottom: 1px dashed grey;
+   padding: 10px 0px;
+}
+.dealer_table-logo {
+   flex: 0 0 25%;
+   width: 70px;
+   height: 70px;
+   border-radius: 5px;
+   overflow: hidden;
+   border-right: 1px dashed grey;
+   align-items: center;
+   justify-content: center;
+}
+
+.dealer_table-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.dealer_table-name {
+   font-weight: 700;
+   font-size: 16px;
+   padding-left: 10px;
+}
+
+.dealer_table-number_body {
+   display: flex;
+   border-bottom: 1px dashed grey;
+   padding: 10px 0px 10px;
+}
+.dealer_table-number-icons {
+   flex: 0 0 25%;
+/*   padding-left: 5px;*/
+   border-right: 1px dashed grey;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.table-number-icon {
+   color: dodgerblue;
+   padding: 0px 5px 0px 5px;
+/*   display: inline-flex;*/
+   align-items: center;
+}
+
+.table-number-icon-wp {
+   width: 22px;
+   height: 22px;
+   padding-top: 2px;
+/*   fill: white;*/
+/*   fill: #777;*/
+   fill: #00a861;
+   transition: all 0.3s ease 0s;
+}
+
+.table-number-icon-ph {
+   width: 22px;
+   height: 22px;
+/*   fill: white;*/
+/*   fill: #777;*/
+   fill: #004da8;
+   transition: all 0.3s ease 0s;
+}
+
+
+.dealer_table-number {
+   color: #004da8;
+   padding-left: 5px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+@media (max-width: 780px) {
+   .dealer_table-number {
+      font-size: 18px;
+   }
+}
+
+@media (max-width: 750px) {
+   .dealer_table-number {
+      font-size: 20px;
+   }
+   .dealer_table-number-icons {
+      justify-content: center;
+   }
+}
+
+.dealer_table-number_link {
+   color: #004da8;
+   padding: 0px 5px;
+   display: flex;
+   align-items: center;
+   transition: all 0.3s ease 0s;
+}
+
+.dealer_table-number_link:hover {
+   color: #005ecc;
+   text-decoration: underline;
+}
+
+.dealer_table-location_body {
+   display: flex;
+   border-bottom: 1px dashed grey;
+   padding: 10px 0px 10px;
+   align-items: center;
+}
+
+.dealer_table-location_icon {
+   flex: 0 0 25%;
+   padding-left: 5px;
+   border-right: 1px dashed grey;
+   text-align: center;
+}
+
+.dealer_table-location_adress {
+   color: #343434;
+   padding-left: 10px;
+   font-size: 14px;
+   font-weight: 500;
+   transition: all 0.3s ease 0s;
+}
+
+.dealer_table-location_adress:hover {
+   font-weight: 500;
+   color: #0050be;
+}
+
 @media (max-width: 820px) {
    .row_phone_number {
       font-size: 16px;
@@ -3379,6 +3529,25 @@ margin-left: 2px;
    .row_phone_number {
       font-size: 18px;
    }
+}
+
+.dealer_table_btn {
+   background-color: #004da8;
+   color: white;
+   padding: 12px 20px;
+   border-radius: 10px;
+   display: block;
+   text-align: center;
+   margin: 30px 20px 10px;
+   font-size: 20px;
+   font-weight: 700;
+   transition: all 0.3s ease 0s;
+}
+
+.dealer_table_btn:hover {
+   color: yellow;
+   background-color: #0055ba;
+   box-shadow: 0 17px 34px 0 rgb(44 39 56 / 4%), 0 8px 17px 0 rgb(44 39 56 / 2%);
 }
 
 .file_tree {
