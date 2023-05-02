@@ -3383,8 +3383,15 @@ display: none;
    border-radius: 10px;
    margin: 20px 0px;
    background-color: #fcfcfc;
-   box-shadow: 0 17px 34px 0 rgb(44 39 56 / 4%), 0 8px 17px 0 rgb(44 39 56 / 2%);
+/*   box-shadow: 0 17px 34px 0 rgb(44 39 56 / 4%), 0 8px 17px 0 rgb(44 39 56 / 2%);*/
+   box-shadow: 0px 6px 20px rgba(0, 16, 61, 0.07);
 }
+
+.car_dealer_table1:hover {
+   box-shadow: 0px 10px 24px rgba(0, 16, 61, 0.11);
+   box-shadow: 0px 16px 48px rgba(0, 16, 61, 0.28);
+}
+
 .dealer_table-body {
    padding: 10px;
 }
