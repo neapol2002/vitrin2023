@@ -3395,19 +3395,24 @@ display: none;
 }
 .dealer_table-logo {
    flex: 0 0 25%;
-   width: 70px;
-   height: 70px;
-   border-radius: 5px;
-   overflow: hidden;
    border-right: 1px dashed grey;
    align-items: center;
    justify-content: center;
+   display: flex;
+}
+
+.dealer_table-logo_img {
+   width: 70px;
+   height: 70px;
+    overflow: hidden;
+   border-radius: 10px;
 }
 
 .dealer_table-logo img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+     
 }
 
 .dealer_table-name {
