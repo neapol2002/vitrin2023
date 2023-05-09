@@ -4481,12 +4481,24 @@ outline: none;
    flex: 1 1 50%;
    padding: 7px;
 }
+   
+   .elan_ticari-subparam.open {
+   opacity: 1;
+   height: 280px;
+   width: 100%;
+}
 }
 
 @media (max-width: 500px) {
      .elan_param__body {
       padding: 10px 0px;
    }
+   
+   .elan_ticari-subparam.open {
+   opacity: 1;
+   height: 250px;
+   width: 100%;
+}
    .elan_param__item {
       padding: 5px 10px 10px;
    }
