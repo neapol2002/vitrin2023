@@ -4227,7 +4227,7 @@ color: #ffe455;
 
 .number_check_h3 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: #ffe455;
     margin: 20px 10px 3px;
     text-align: center;
     font-weight: 600;
@@ -4508,7 +4508,7 @@ outline: none;
    
    .elan_ticari-subparam.open {
    opacity: 1;
-   height: 250px;
+   height: 280px;
    width: 100%;
 }
    .elan_param__item {
