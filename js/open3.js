@@ -6,6 +6,59 @@ const tabHeaders = document.querySelectorAll('[data-tab]');
 // Нашли все контент боксы
 const contentBoxes = document.querySelectorAll('[data-tab-content]');
 
+let elanItem = document.querySelectorAll('.elan_param__item');
+let elanItem1 = document.querySelectorAll('.elan_param__subitem');
+
+
+// for (let i = 0; i < elanItem.length; i++) {
+//     // console.log(i);
+//     elanItem[i].onclick = elanItem.classList.togle;
+// }
+
+function hideTab() {
+    for (let i = 0; i < elanItem.length; i++) {
+        if (elanItem[i].classList.contains('show')) {
+            elanItem[i].classList.remove('show');
+            break;
+        }
+    }
+}
+
+function toggleTab1(i) {
+    elanItem1[i].addEventListener('click', function (event) {
+        hideTab1();
+        elanItem1[i].classList.add('show');
+    });
+};
+
+for (let i = 0; i <elanItem1.length; i++) {
+    toggleTab1(i);
+}
+
+function hideTab1() {
+    for (let i = 0; i < elanItem1.length; i++) {
+        if (elanItem1[i].classList.contains('show')) {
+            elanItem1[i].classList.remove('show');
+            break;
+        }
+    }
+}
+
+
+
+function toggleTab(i) {
+    elanItem[i].addEventListener('click', function (event) {
+        hideTab();
+        elanItem[i].classList.add('show');
+    });
+};
+
+for (let i = 0; i <elanItem.length; i++) {
+    toggleTab(i);
+}
+
+
+
 tabHeaders.forEach(function (item) {
     item.addEventListener('click', function () {
 
