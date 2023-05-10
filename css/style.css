@@ -4416,7 +4416,8 @@ outline: none;
    padding: 7px;
 }
 
-.elan_param__item {
+.elan_param__item,
+.elan_param__subitem {
    border: 1px dashed white;
    border-radius: 10px;
    padding: 10px 10px 20px;
@@ -4425,6 +4426,10 @@ outline: none;
    cursor: pointer;
    transition: all 0.5s ease 0s;
 }
+
+
+
+
 
 .param__item_icon {
 }
@@ -4441,7 +4446,14 @@ outline: none;
 .param__item_title {
 }
 
-.elan_param__item:hover {
+.elan_param__item:hover,
+.elan_param__subitem:hover {
+   color: yellow;
+   border: 1px dashed yellow;
+}
+
+.elan_param__item.show,
+.elan_param__subitem.show {
    color: yellow;
    border: 1px dashed yellow;
 }
