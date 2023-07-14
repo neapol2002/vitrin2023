@@ -403,19 +403,19 @@
     <div class="agency__backfeed_container _container">
        <div class="agency__backfeed_row">
          
-          <div class="agency__backfeed_item">
-             <div class="agency__backfeed_body"><svg class="icon icon-vip_title icon-infr5 icon-liked"><use xlink:href="symbol-defs.svg#icon-like3"></use></svg>Seçilmiş et</div>
+          <div class="agency__backfeed_item ">
+             <div class="agency__backfeed_body backfeed_fav"><svg class="icon icon-vip_title icon-infr5 icon-liked"><use xlink:href="symbol-defs.svg#icon-like3"></use></svg><span>Seçilmiş et</span></div>
           </div>
           
-           <div class="agency__backfeed_item">
+           <div class="agency__backfeed_item" data-tab="tab-1">
              <div class="agency__backfeed_body"><svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-flag1"></use></svg>Şikayət et</div>
           </div>
           
            <div class="agency__backfeed_item">
-             <div class="agency__backfeed_body"><svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-like_solid"></use></svg>Bəyən <span>(2)</span></div>
+             <div class="agency__backfeed_body backfeed_like"><svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-like_solid"></use></svg><p>Bəyən</p><span>(2)</span></div>
           </div>
           
-           <div class="agency__backfeed_item">
+           <div class="agency__backfeed_item" data-tab="tab-2">
              <div class="agency__backfeed_body"><svg class="icon icon-vip_title icon-infr5"><use xlink:href="symbol-defs.svg#icon-share-1"></use></svg>Paylaş</div>
           </div>
           
@@ -425,8 +425,10 @@
   <!-- Agency backfeed section End -->
   
    <!-- Agency report section Start -->
-  <div class="agency__report">
-             <div class="agency__report_container _container">
+  <div class="agency__report" data-tab-content id="tab-1">
+             <div class="agency__report-container _container">
+             <div class="ads_delate_title">Elandan şikayət etmək
+               <span class="ads_title_close">+</span></div>
              <div class="agency__report_row">
              
               <div class="agency_report_item">
@@ -455,8 +457,8 @@
             <!-- Agency report section End -->
             
             <!-- Estae share section start -->
-            <div class="agency__report-container">
-<div class="estate__share open" data-tab-content id="tab-4">
+<div class="estate__share" data-tab-content id="tab-2" >
+ <div class="agency__report-container">
   <div class="ads_delate_title">Avtosalonu paylaş
                <span class="ads_title_close">+</span></div>
    <div class="estate__share_row">
@@ -483,7 +485,7 @@
            </a>
       </div>
    </div>
-</div>
+   </div>
 </div>
 <!-- Estae share section end -->
              
@@ -629,6 +631,7 @@
    <script src="js/imask.js"></script>
    <script src="js/script.js"></script>
    <script src="js/open3.js"></script>
+   <script src="js/open_dealer.js"></script>
 
     <script src="js/ligtgallery/lightgallery.min.js"></script>
     <script src="js/ligtgallery/lg-zoom.min.js"></script>
