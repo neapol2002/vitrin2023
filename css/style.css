@@ -1861,7 +1861,7 @@ f
 
 @media (max-width: 530px) {
    .section_header__title {
-      padding: 0px 0px;
+      padding: 0px 5px;
    }
 }
 
