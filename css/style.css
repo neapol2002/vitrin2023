@@ -5570,8 +5570,13 @@ outline: none;
    }
    .agency__info_column {
    flex: 1 1 100%;
-   padding: 5px;   
+   padding: 5px; 
+      
 }
+   .agency__info_body {
+      justify-content: flex-start;
+   }
+   
 }
 
 
