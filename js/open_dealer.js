@@ -35,7 +35,7 @@ btn__like.onclick = function() {
     btn__like_icon.style.fill = 'red'
 }
 else {
-    btn__like_s.innerHTML = 'Seçilmiş et'
+    btn__like_s.innerHTML = 'Bəyən'
     btn__like_s.style.color = 'black'
     btn__like_icon.style.fill = '#1067bf'
     btn__like_s.style.fontWeight = '500'
