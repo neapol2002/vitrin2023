@@ -5452,12 +5452,21 @@ outline: none;
    object-fit: contain;
 }
 
-.agency__banner_name {
+.agency__banner_about {
    align-self: flex-end;
-   padding: 7px 30px 7px 15px;
+   padding: 7px 20px 7px 15px;
    font-size: 16px;
    font-weight: 700;
    background-color: rgba(0, 0, 0, 0.41);
+}
+
+.agency__banner_name {
+   
+}
+
+.agency__banner_type {
+   font-weight: 300;
+   font-size: 14px;
 }
 
 
@@ -5483,7 +5492,7 @@ outline: none;
       left: 30px;   
    }
    .agency__banner_name {
-      padding: 7px 20px 7px 10px;
+/*      padding: 7px 20px 7px 10px;*/
    }
 }
 
@@ -5630,7 +5639,7 @@ outline: none;
 
 @media (max-width: 500px) {
    .agency__tabs {
-      margin-top: 10px;
+      margin-top: 0px;
    }
 }
 
@@ -5774,6 +5783,38 @@ outline: none;
    margin: 5px 2px;
    }
 }
+
+/*Agency about short*/
+
+.dealer_about_short {
+   padding: 0px 0px 10px;
+}
+
+.dealer_about_short_text {
+   margin: 10px 30px 10px;
+   border: 1px dotted grey;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 16px;
+   color: #555555;
+}
+
+.dealer_about_short_name {
+   color: #009fd4;
+   font-weight: 700;
+}
+
+.dealer_about_more {
+   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+   .dealer_about_short_text {
+      margin: 10px 20px 10px;
+   }
+}
+
+
 
 
 /*  Footer Styles */
