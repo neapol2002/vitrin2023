@@ -5914,6 +5914,46 @@ outline: none;
    }
 }
 
+/*  Paginations Styles */
+
+.pagination {
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+.pagination_item {
+    text-align: center;
+    margin: 2px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: darkgrey;
+    padding: 2px 5px;
+}
+
+.page_active {
+    color: white;
+    border: 1px solid orangered;
+    background-color: orangered;
+   border-radius: 5px;
+}
+
+.page_pointer {
+    color: orangered;
+    margin: 2px 5px;
+    font-weight: 700;
+}
+
+.pagination_item:hover {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+.page_active:hover {
+    color: white;
+
+}
+
 /*  Footer Styles */
 
 .footer {
