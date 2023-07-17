@@ -5954,6 +5954,178 @@ outline: none;
 
 }
 
+/*  Contact Us  */
+
+.contact_us_title {
+    text-align: center;
+    color: #006ad4;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact_us {
+/*    background-color: #9dce95;*/
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #004da8;
+}
+
+.contact_us_parts {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+/*    margin: 40px auto;*/
+
+
+}
+
+.contact_us_text_part {
+    width: 50%;
+    padding: 0 40px;
+   color: white;
+}
+
+.contact_us_text_title {
+    margin-bottom: 10px;
+    font-size: 26px;
+/*    text-transform: uppercase;*/
+    font-weight: 700;
+}
+
+
+
+.contact_us_text {
+font-size: 16px;
+}
+
+.contact_us_input_part {
+    width: 50%;
+    padding: 0 40px;
+    margin: 20px auto;
+}
+
+.contact_us_input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.name_mail_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_name_mail {
+/*    max-width: 48%;*/
+    width: 48%;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.input_subject {
+    width: 100%;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.input_textarea {
+    width: 100%;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    overflow: auto;
+    resize: none;
+    font-family: inherit;
+}
+
+.btn_input {
+
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 10px 35px;
+
+    border-radius: 5px;
+    border: 1px solid gold;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: right;
+/*    text-align: left;*/
+    color: #009500;
+   color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .2s, color .2s linear;
+}
+
+.btn__red_c {
+    background-color: orange;
+    margin-bottom: 5px;
+}
+
+.btn__red_c:hover,
+.btn__red_c:focus {
+    background-color: orangered;
+    color: yellow;
+}
+
+.btn__red_c:active {
+    outline: none;
+    border: 1px solid white;
+
+}
+
+
+
+@media (max-width: 991px) {
+
+/*  Contact Us start  */
+
+
+    .contact_us_text_part {
+        padding: 0 20px;
+}
+    .contact_us_input_part {
+        padding: 0 20px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+   .contact_us_parts {
+        flex-wrap: wrap;
+    }
+
+    .contact_us_text_part {
+        width: 100%;
+        padding: 0 20px;
+}
+    .contact_us_input_part {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact_us_input_part {
+        padding: 0 10px;
+}
+}
+
 /*  Footer Styles */
 
 .footer {
