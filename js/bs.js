@@ -18,7 +18,29 @@ for (let index = 0; index < menuArrows.length; index++) {
     menuArrow.classList.remove('_active');
 };
  }; 
+
 };
+
+// back.addEventListener('click', function (event) {
+//     const self = event.target.closest('.header_burger');
+//     if (!self) {
+//         header_burger.classList.remove('active')
+//     }
+// })
+
+
+// burger menyunun kenara klikleyende baglanmasi
+// const burgerMain = document.querySelector('.burger_main');
+// back.addEventListener('click', (e) => {
+//   const click = e.composedPath().includes(burgerMain);
+//   if ( !click ) {
+//     header_burger.classList.remove('active');
+//     nav.classList.remove('active');
+//     back.classList.remove('lock');
+//   }
+// })
+
+
 
 // nav__link.onclick = function (){
 //     nav.classList.remove('active');

@@ -35,6 +35,8 @@ for (let i = 0; i <elanItem1.length; i++) {
     toggleTab1(i);
 }
 
+
+
 function hideTab1() {
     for (let i = 0; i < elanItem1.length; i++) {
         if (elanItem1[i].classList.contains('show')) {
